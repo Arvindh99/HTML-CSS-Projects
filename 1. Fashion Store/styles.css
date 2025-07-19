@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #806bdc;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin-left: 95px;
+}
+
+figcaption {
+  transition: color 0.3s ease;
+}
+
+figcaption:hover {
+  color: #806bdc;
+}
+
+.shoppingtime-banner {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+h3 {
+  color: #21130d;
+  font-size: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #806bdc;
+}
+
+.time-discount {
+  background-color: #eeeee4;
+  padding: 20px;
+}
+
+.heading {
+  color: #9d9fa0;
+  font-size: 20px;
+}
+
+.subheading {
+  color: #9d9fa0;
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #21130d;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
